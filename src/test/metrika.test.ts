@@ -25,7 +25,7 @@ describe('automatic Metrika goals', () => {
     link?.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true }));
 
     expect(ym).toHaveBeenCalledWith(
-      107216997,
+      112355966,
       'reachGoal',
       'phone_click',
       expect.objectContaining({ page: '/', placement: 'hero' })
@@ -52,14 +52,14 @@ describe('automatic Metrika goals', () => {
     link?.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true }));
 
     expect(ym).toHaveBeenCalledWith(
-      107216997,
+      112355966,
       'reachGoal',
       'whatsapp_click',
       expect.objectContaining({ page: '/', placement: 'hero' })
     );
     expect(ym).toHaveBeenCalledTimes(1);
     expect(ym).not.toHaveBeenCalledWith(
-      107216997,
+      112355966,
       'reachGoal',
       'messenger_click',
       expect.anything()
@@ -86,7 +86,7 @@ describe('automatic Metrika goals', () => {
     link?.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true }));
 
     expect(ym).toHaveBeenCalledWith(
-      107216997,
+      112355966,
       'reachGoal',
       'max_click',
       expect.objectContaining({ page: '/', placement: 'hero' })
@@ -111,7 +111,7 @@ describe('automatic Metrika goals', () => {
 
     expect(ym).toHaveBeenCalledTimes(1);
     expect(ym).toHaveBeenCalledWith(
-      107216997,
+      112355966,
       'reachGoal',
       'form_start',
       expect.objectContaining({ page: '/', form: 'main' })
