@@ -199,7 +199,7 @@ const FurnitureCleaning = () => {
         />
         <link
           rel="canonical"
-          href="https://www.blesk23.ru/himchistka-mebeli-sochi"
+          href="https://blesk-23.ru/himchistka-mebeli-sochi"
         />
         <script type="application/ld+json">
           {JSON.stringify({
