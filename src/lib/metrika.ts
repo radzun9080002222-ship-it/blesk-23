@@ -9,7 +9,7 @@ declare global {
   }
 }
 
-const METRIKA_ID = 107216997;
+const METRIKA_ID = 112355966;
 
 export type MetrikaGoal =
   | "phone_click"
